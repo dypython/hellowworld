@@ -19,4 +19,4 @@ with open('jindodog_input_covar.covar', 'r') as f2:
         for line in f.readlines():
             data = line.strip().split('\t')
             genotype[data[-1]] = data[0]
-            print(genotype)
+            
